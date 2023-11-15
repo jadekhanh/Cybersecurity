@@ -31,9 +31,8 @@
 # print("recovered key:", recoveredkey)
 
 ###############################################################################
-
-First 6 bytes of the zip file is 504B03041400, 
-XOR it with the cipher text to get the key
+# First 6 bytes of the zip file is 504B03041400, 
+# XOR it with the cipher text to get the key
 first_6_bytes = bytes.fromhex("0A1257485539")   # Convert hex string to bytes
 header = bytes.fromhex("504B03041400")          # Convert hex string to bytes
 key = bytes()
