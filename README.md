@@ -2,7 +2,7 @@
 This repository provides an in-depth exploration of various cryptographic methods and security-related topics within the field of cybersecurity. It covers encryption techniques such as the Caesar cipher, substitution cipher, and XOR encryption, along with an implementation of side-channel timing attack.
 
 ## Caesar Cryptography
-The Caesar cipher, also known as the Caesar shift or Caesar's code, is one of the most basic and ancient encryption methods employed in cryptography. It belongs to the category of substitution ciphers. In this technique, each letter within the plaintext is shifted by a fixed number of positions, either up or down the alphabet. This numerical shift is referred to as the "key" or "shift value." The cipher derives its name from Julius Caesar, who is historically believed to have utilized it for confidential communication purposes.
+The Caesar cipher, also known as the Caesar shift or Caesar's code, is one of the most basic and ancient encryption methods employed in cryptography. It belongs to the category of substitution ciphers. In this technique, each letter within the plaintext is shifted by a fixed number of positions, either up or down the alphabet. This numerical shift is referred to as the "key" or "shift value."
 
 ## Substitution Cryptography
 Substitution cryptography is a fundamental technique used for encryption. In this method, units of plaintext, such as individual letters, are replaced with corresponding ciphertext elements. The mapping between plaintext and ciphertext units is determined by a specific substitution rule or algorithm.
